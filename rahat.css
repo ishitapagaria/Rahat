@@ -1,0 +1,45 @@
+body
+{
+background-color:#0f1129
+font-color:#f4ebeb;
+}
+#aboutpage
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+p
+{
+  padding: 3%;
+}
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+    font-style: italic;
+}
+.social-icons
+{
+ margin: 20px 10px;
+}
+@media(max-width:1028px)
+{
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    body
+    {
+        text-align: center;
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
