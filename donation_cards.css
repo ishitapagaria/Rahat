@@ -1,0 +1,138 @@
+.card1 {
+    display: flex;
+}
+
+.card2 {
+    display: flex;
+}
+
+.card_space {
+    flex-grow: 1;
+}
+
+.card_clothes {
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #aa9f9e;
+}
+
+.card_meds {
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #76c7ba;
+}
+
+.card_food {
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f7d2d1;
+}
+
+.card_schoolkit {
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f1b682;
+}
+
+.card_books {
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f6d454;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+    height: 10%;
+    width: 10%;
+}
+
+.container {
+    padding: 10px 16px;
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.donate_meds {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background:-webkit-linear-gradient(0deg,#0d4d43 50%,#147969 50%) ;
+    background-size: 600px 80px;
+    transition: 0.8s;
+}
+
+.donate_meds:hover {
+    background-position: 300px 0;
+}
+
+.donate_clothes {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background:-webkit-linear-gradient(0deg,#1d1818 50%,#392F2F 50%) ;
+    background-size: 600px 80px;
+    transition: 0.8s;
+}
+
+.donate_clothes:hover {
+    background-position: 300px 0;
+}
+
+.donate_food {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background:-webkit-linear-gradient(0deg,#a28a89 50%,#4d4141 50%) ;
+    background-size: 600px 80px;
+    transition: 0.8s;
+}
+
+.donate_food:hover {
+    background-position: 300px 0;
+}
+
+.donate_schoolkit {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background:-webkit-linear-gradient(0deg,#9c7654 50%,#B29071 50%) ;
+    background-size: 600px 80px;
+    transition: 0.8s;
+}
+
+.donate_schoolkit:hover {
+    background-position: 300px 0;
+}
+
+.donate_books {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none; 
+    background:-webkit-linear-gradient(0deg,#a18b37 50%,#C1A84A 50%) ;
+    background-size: 600px 80px;
+    transition: 0.8s;
+}
+
+.donate_books:hover {
+    background-position: 300px 0;
+}
